@@ -106,16 +106,6 @@ variable "ingress_rules" {
   }
 }
 
-variable "create_ingress_cidr" {
-  type        = bool
-  description = "Enable or disable CIDR block ingress rules."
-  default     = true
-}
 
-variable "include_security_groups" {
-  type        = bool
-  description = "Enable or disable CIDR block ingress rules."
-  default     = true
-}
 
 
