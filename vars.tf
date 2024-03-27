@@ -69,21 +69,6 @@ variable "target_group_name" {
   type    = string
   default = "jenkins-alb-target-group"
 }
- /*variable "vpc_id" {
-  description = "The ID of the VPC to associate with sg "
-  type        = string
-} */
-
-/* variable "public_subnet_ids" {
-  type        = list(string)
-  description = "The list of public subnet IDs to launch the EC2 instances in ASG"
-} 
-
-variable "target_group_arn" {
-  type        = list(string)
-  description = "The ARN OF LB targetgroup"
-}  */
-
 
 variable "ingress_rules" {
   description = "A map of ingress rules for the security group"
